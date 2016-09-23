@@ -3,16 +3,14 @@
 
 class Ponto
 {
-private:
+private: //Declaração das variáveis privadas
     float x;
     float y;
 
-public:
+public: // Declaração das variáveis públicas
     Ponto();
     Ponto(float x,float y);
     ~Ponto();
-
-
 
     float getX();
     void setX(float x);
