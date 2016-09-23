@@ -4,13 +4,13 @@
 
 class Poligono{
 private:
-    int nVertices;
+    int nVertices; // Declaração de uma variável para contar o número de vértices
 protected:
-    Ponto p[100];
+    Ponto p[100]; // Declara uma várivel para no máximo 100 vértices
 public:
     Poligono();
     ~Poligono();
-
+    // Declarações das funções públicas do código
     void addVertice(float x, float y);
     int getVertice();
     float area();
